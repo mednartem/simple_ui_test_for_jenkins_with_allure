@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -10,6 +11,7 @@ import static io.qameta.allure.Allure.step;
 public class GoogleSearchTest extends BaseTest {
 
     @Test
+    @DisplayName("Successfully search Selenide to google")
     void googleSearch() {
         String dataForSearch = "Selenide";
         step("Открыть страницу google", () -> open("https://www.google.com/"));
