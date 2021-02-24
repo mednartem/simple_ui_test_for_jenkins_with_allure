@@ -1,4 +1,10 @@
 Selenium autotests for run to selenoid with use Allure
+After success tests report has Attachment:
+- Page source
+- Last screenshot
+- Video of the test
+- Console logs
+
 
 ### Dependencies:
 
